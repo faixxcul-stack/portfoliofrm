@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script type="module" src="https://kit.fontawesome.com/9fd0aeec12.js" crossorigin="anonymous"></script>
     <script type="module" src="https://cdn.jsdelivr.net/npm/@mariohamann/activity-graph/dist/activity-graph.min.js"></script>
@@ -12,7 +14,7 @@
 
     <div class="container">
 
-        </=========== Navbar =============>
+        <!-- Navbar -->
 
         <nav class="navbar">
             <div class="box theme">
@@ -23,35 +25,35 @@
             </div>
             <div class="box nav">
                 <div class="item active">
-                    <a href="about">
+                    <a href="#about">
                         <ion-icon name="person-circle-outline"></ion-icon>
                         <p>about</p>
                     </a>
                     <div class="divider ltr"></div>
                 </div>
                 <div class="item">
-                    <a href="resume">
+                    <a href="#resume">
                         <ion-icon name="document-outline"></ion-icon>
                         <p>resume</p>
                     </a>
                     <div class="divider rtl"></div>
                 </div>
                 <div class="item">
-                    <a href="project">
+                    <a href="#projects">
                         <ion-icon name="layers-outline"></ion-icon>
                         <p>project</p>
                     </a>
                     <div class="divider rtl"></div>
                 </div>
                 <div class="item">
-                    <a href="blogs">
+                    <a href="#blogs">
                         <ion-icon name="reader-outline"></ion-icon>
                         <p>blogs</p>
                     </a>
                     <div class="divider rtl"></div>
                 </div>
                 <div class="item">
-                    <a href="cantact">
+                    <a href="#cantact">
                         <ion-icon name="paper-plane-outline"></ion-icon>
                         <p>cantact</p>
                     </a>
@@ -59,7 +61,7 @@
             </div>
         </nav>
         
-        </----------------------- profile ---------------->
+        <!-- Profile -->
 
         <div class="box profile">
             <img class="header" src="Asset/bannerfikri.png" alt="">
@@ -69,25 +71,25 @@
             <ul>
                 <li><a href="https://www.instagram.com/faiqulfikrimubarok?igsh=MW1uaXVnMHNhZ3JnbA=="><ion-icon name="logo-instagram"></ion-icon></a></li>
                 <li><a href="https://id.linkedin.com/in/faiqul-fikri-mubarok-129yltf"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                <li><a href="#"><ion-icon name="globe-outline"></ion-icon></a></li>
-                <li><a href="#"><ion-icon name="bar-chart-outline"></ion-icon></a></li>
+                <li><a href="https://id.linkedin.com/in/faiqul-fikri-mubarok-129yltf"><ion-icon name="globe-outline"></ion-icon></a></li>
+                <li><a href="https://id.linkedin.com/in/faiqul-fikri-mubarok-129yltf"><ion-icon name="bar-chart-outline"></ion-icon></a></li>
             </ul>
             <div class="footer">
                 <div class="divider rtl"></div>
                 <table>
                     <tr>
-                        <td><a href="#">My Resume <ion-icon name="file-tray-full-outline"></ion-icon></a></td>
-                        <td><a href="#">Contact Me <ion-icon name="call-outline"></ion-icon></a></td>
+                        <td><a href="https://id.linkedin.com/in/faiqul-fikri-mubarok-129yltf">My Resume <ion-icon name="file-tray-full-outline"></ion-icon></a></td>
+                        <td><a href="https://id.linkedin.com/in/faiqul-fikri-mubarok-129yltf">Contact Me <ion-icon name="call-outline"></ion-icon></a></td>
                     </tr>
                 </table>
             </div>
         </div>
 
-        </* ------------- Content ----------- */> 
+        <!-- Content -->
 
         <div class="box content">
             <div class="wrapper">
-                <h2>Hey <span class="colored">there!</span></h2>
+                <h2 id="about">Hey <span class="colored">there!</span></h2>
                 <div class="divider ltr"></div>
                 <p>perkenalkan saya fikri  anda siapa?</p>
 
@@ -108,7 +110,7 @@
                     </div>
                 </section>
 
-                </---------- Skill -------->
+                <!-- Skill -->
 
                 <h2>My <span class="colored">Skills</span></h2>
                 <div class="divider ltr"></div>
@@ -142,9 +144,9 @@
                     </div>
                 </section>
 
-                </-- Experience -->
+                <!-- Experience -->
 
-                <h1>My <span class="colored">Experience</span></h1>
+                <h1 id="resume">My <span class="colored">Experience</span></h1>
                 <div class="divider ltr"></div>
 
                 <section class="experiences">
@@ -186,24 +188,11 @@
                     </div>
                 </section>
                 
-                <h1>My <span class="colored">Contributions</span></h1>
-                <div class="divider ltr"></div>
-                <!-- COntribution -->
                 
-                <section class="contribution">
-                    <div class="wrapper">
-                        <activity-graph
-                            range-start="2025-09-15"
-                            range-end="2026-09-30"
-                            activity-levels="0,1,2,3,4"
-                            activity-data="2025-09-15,2025-09-16,2025-09-19"
-                        ></activity-graph>
-                    </div>
-                </section>
 
                 <!-- Project -->
 
-                <h1>My <class class="colored">Project</class></h1>
+                <h2 id="projects">My <class class="colored">Project</class></h2>
                 <div class="divider ltr"></div>
 
                 <section class="projects">
@@ -239,7 +228,7 @@
 
                 <!-- Blogs -->
 
-                <h1>My <span class="colored">Blogs</span></h1>
+                <h2 id="blogs">My <span class="colored">Blogs</span></h2>
                 <div class="divider ltr"></div>
 
                 <section class="blogs">
@@ -248,7 +237,7 @@
                         <div>
                             <h3>Web Design Tool</h3>
                             <p>LOrem ipsum dolor sit amet</p>
-                            <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                            <span class="link"><a href="https://id.linkedin.com/in/faiqul-fikri-mubarok-129yltf">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
                         </div>
                     </div>
                     <div class="blog-box">
@@ -256,7 +245,7 @@
                         <div>
                             <h3>Web Design Tool</h3>
                             <p>LOrem ipsum dolor sit amet</p>
-                            <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                            <span class="link"><a href="https://id.linkedin.com/in/faiqul-fikri-mubarok-129yltf">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
                         </div>
                     </div>
                     <div class="blog-box">
@@ -264,7 +253,7 @@
                         <div>
                             <h3>Web Design Tool</h3>
                             <p>LOrem ipsum dolor sit amet</p>
-                            <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                            <span class="link"><a href="https://id.linkedin.com/in/faiqul-fikri-mubarok-129yltf">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
                         </div>
                     </div>
                     <div class="blog-box">
@@ -272,13 +261,13 @@
                         <div>
                             <h3>Web Design Tool</h3>
                             <p>LOrem ipsum dolor sit amet</p>
-                            <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                            <span class="link"><a href="https://id.linkedin.com/in/faiqul-fikri-mubarok-129yltf">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
                         </div>
                 </section>
 
                 <!-- Contact -->
 
-                <h1>Contact <span class="colored">Me</span></h1>
+                <h2 id="contact">Contact <span class="colored">Me</span></h2>
                 <div class="divider ltr"></div>
 
                 <section>

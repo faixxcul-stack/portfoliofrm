@@ -1,4 +1,4 @@
-// type animation
+
 var typed = new Typed("#typed", {
     strings: ["Finance Analyst", "Undergraduate Business Management"],
     typeSpeed: 50,
@@ -8,7 +8,7 @@ var typed = new Typed("#typed", {
     loop: true
 });
 
-// Theme
+
 function theme() {
     const darkBtn = document.getElementById('darkBtn');
     const lightBtn = document.getElementById('lightBtn');
@@ -23,3 +23,13 @@ function theme() {
         lightBtn.style.display = 'block';
     }
 }
+
+
+const menuItems = document.querySelectorAll('.nav .item');
+
+menuItems.forEach(item=> {
+    item.addEventListener('click', () => {
+        menuItems.forEach(item => item.classList.remove('active'));
+        item.classList.add('active');
+    });
+});
