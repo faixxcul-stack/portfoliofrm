@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="https://kit.fontawesome.com/9fd0aeec12.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@mariohamann/activity-graph/dist/activity-graph.min.js"></script>
+    <title>My Portfolio</title>
+</head>
+<body class="">
+
+    <div class="container">
+
+        </=========== Navbar =============>
+
+        <nav class="navbar">
+            <div class="box theme">
+                <div class="item" onclick="theme()">
+                    <ion-icon id="lightBtn" name="sunny-outline"></ion-icon>
+                    <ion-icon id="darkBtn" name="moon-outline" style="display: none;"></ion-icon>
+                </div>
+            </div>
+            <div class="box nav">
+                <div class="item active">
+                    <a href="about">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        <p>about</p>
+                    </a>
+                    <div class="divider ltr"></div>
+                </div>
+                <div class="item">
+                    <a href="resume">
+                        <ion-icon name="document-outline"></ion-icon>
+                        <p>resume</p>
+                    </a>
+                    <div class="divider rtl"></div>
+                </div>
+                <div class="item">
+                    <a href="project">
+                        <ion-icon name="layers-outline"></ion-icon>
+                        <p>project</p>
+                    </a>
+                    <div class="divider rtl"></div>
+                </div>
+                <div class="item">
+                    <a href="blogs">
+                        <ion-icon name="reader-outline"></ion-icon>
+                        <p>blogs</p>
+                    </a>
+                    <div class="divider rtl"></div>
+                </div>
+                <div class="item">
+                    <a href="cantact">
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                        <p>cantact</p>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        
+        </----------------------- profile ---------------->
+
+        <div class="box profile">
+            <img class="header" src="Asset/bannerfikri.png" alt="">
+            <img class="img" src="Asset/fotofikri.png" alt="">
+            <h2>Faiqul Fikri Mubarok</h2>
+            <p id="typed" class="colored">Finance Analyst</p>
+            <ul>
+                <li><a href="https://www.instagram.com/faiqulfikrimubarok?igsh=MW1uaXVnMHNhZ3JnbA=="><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="https://id.linkedin.com/in/faiqul-fikri-mubarok-129yltf"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="globe-outline"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="bar-chart-outline"></ion-icon></a></li>
+            </ul>
+            <div class="footer">
+                <div class="divider rtl"></div>
+                <table>
+                    <tr>
+                        <td><a href="#">My Resume <ion-icon name="file-tray-full-outline"></ion-icon></a></td>
+                        <td><a href="#">Contact Me <ion-icon name="call-outline"></ion-icon></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        </* ------------- Content ----------- */> 
+
+        <div class="box content">
+            <div class="wrapper">
+                <h2>Hey <span class="colored">there!</span></h2>
+                <div class="divider ltr"></div>
+                <p>perkenalkan saya fikri  anda siapa?</p>
+
+                </----------- Achivement------------>
+
+                <section class="achivements">
+                    <div>
+                        <h3><ion-icon name="school-outline"></ion-icon> 15+</h3>
+                        <p>Finance Certification</p>
+                    </div>
+                    <div>
+                        <h3><ion-icon name="business-outline"></ion-icon> 5+</h3>
+                        <p>World-Class Institutions</p>
+                    </div>
+                    <div>
+                        <h3><ion-icon name="library-outline"></ion-icon> 25+</h3>
+                        <p>Finance Blog Written</p>
+                    </div>
+                </section>
+
+                </---------- Skill -------->
+
+                <h2>My <span class="colored">Skills</span></h2>
+                <div class="divider ltr"></div>
+
+                <section class="skills">
+                    <div><i class="fa-regular fa-file-excel"></i><p>Excel</p></div>      
+                    <div><i class="fa-brands fa-notion"></i><p>Notion</p></div>
+                    <div><i class="fa-solid fa-chart-simple"></i><p>PowerBI</p></div>
+                    <div><i class="fa-regular fa-file-word"></i><p> Word</p></div>
+                    <div>
+                        <div class="circle" style="--percent:62%">
+                            <h4>62<small>%</small></h4>
+                        </div>
+                        <p>Risk Management</p>
+                    </div>
+                    <div>                    
+                        <div class="circle" style="--percent:72%">
+                            <h4>73<small>%</small></h4>
+                        </div>
+                        <p>Corporate Finance</p>
+                    </div>
+                    <div>
+                        <div class="progress-bar">
+                            <p>Portfolio Management <span>78%</span></p>
+                            <progress max="100" value="78"></progress>
+                        </div>
+                        <div class="progress-bar">
+                            <p>Financial Modeling & Valuation <span>76%</span></p>
+                            <progress max="100" value="76"></progress>
+                        </div>
+                    </div>
+                </section>
+
+                </-- Experience -->
+
+                <h1>My <span class="colored">Experience</span></h1>
+                <div class="divider ltr"></div>
+
+                <section class="experiences">
+                    <div class="experience">
+                        <h2>Event Coordinator</h2>
+                        <h4>HIPMI PT UNNES <span class="date">Mei, 2025</span> &#x26AC; <span class="date">Present</span></h4>
+                        <p>Led a national Business Model Canvas competition, managing 40 members across 6 divisions to ensure smooth execution, team commitment, and event success. </p>
+                    </div>
+                    <div class="experience">
+                        <h2>Founder</h2>
+                        <h4>FinQuick <span class="date">Jun, 2024</span> &#x26AC; <span class="date">Present</span></h4>
+                        <p>Founded and currently manage a financial media platform dedicated to finance students and aspiring professionals, providing daily market updates and educational articles. Responsible for developing the website, creating content, and publishing learning materials. </p>
+                    </div>
+                    <div class="experience">
+                        <h2>AIESEC Future Leader</h2>
+                        <h4>AIESEC <span class="date">Oct, 2024</span> &#x26AC; <span class="date">Jan, 2025</span></h4>
+                        <p>Enhanced interpersonal capabilities, emotional intelligence, and empathy, while gaining practical experience in team management and collaborative leadership.</p>
+                    </div>
+                </section>
+
+                <h1>My <span class="colored">Certification</span></h1>
+                <div class="divider ltr"></div>
+
+                <section class="experiences">
+                    <div class="experience">
+                        <h2>Financial Management</h2>
+                        <h4>University of Illinois <span class="date">Mei, 2025</span> &#x26AC; <span class="date">Present</span></h4>
+                        <p>Completed coursework in financial accounting, corporate finance, and investment management, with focus on strategic decision-making, financial markets, and value-based management. Applied concepts through peer-reviewed projects and real-world case studies. </p>
+                    </div>
+                    <div class="experience">
+                        <h2>Corporate Finance & Valuation</h2>
+                        <h4>New York Institute of Finance <span class="date">Jun, 2024</span> &#x26AC; <span class="date">Present</span></h4>
+                        <p>Professional certificate covering valuation, project budgeting, and corporate finance decision-making. </p>
+                    </div>
+                    <div class="experience">
+                        <h2>Credit Analysis</h2>
+                        <h4>New York Institute of Finance <span class="date">Oct, 2024</span> &#x26AC; <span class="date">Jan, 2025</span></h4>
+                        <p>Professional certificate program teaching risk management principles, ratio & cash flow analysis, projections, and structuring credit risk decisions.</p>
+                    </div>
+                </section>
+                
+                <h1>My <span class="colored">Contributions</span></h1>
+                <div class="divider ltr"></div>
+                <!-- COntribution -->
+                
+                <section class="contribution">
+                    <div class="wrapper">
+                        <activity-graph
+                            range-start="2025-09-15"
+                            range-end="2026-09-30"
+                            activity-levels="0,1,2,3,4"
+                            activity-data="2025-09-15,2025-09-16,2025-09-19"
+                        ></activity-graph>
+                    </div>
+                </section>
+
+                <!-- Project -->
+
+                <h1>My <class class="colored">Project</class></h1>
+                <div class="divider ltr"></div>
+
+                <section class="projects">
+                    <div class="project-1">
+                        <img src="Asset/bannerfikri.png" alt="">
+                        <h3>Project <span class="colored">Title-1</span></h3>
+                    </div>
+                    <div class="project-2">
+                        <img src="Asset/bannerfikri.png" alt="">
+                        <h3>Project <span class="colored">Title-2</span></h3>
+                    </div>
+                    <div class="project-3">
+                        <img src="Asset/bannerfikri.png" alt="">
+                        <h3>Project <span class="colored">Title-3</span></h3>
+                    </div>
+                    <div class="project-4">
+                        <img src="Asset/bannerfikri.png" alt="">
+                        <h3>Project <span class="colored">Title-4</span></h3>
+                    </div>
+                    <div class="project-5">
+                        <img src="Asset/bannerfikri.png" alt="">
+                        <h3>Project <span class="colored">Title-5</span></h3>
+                    </div>
+                    <div class="project-6">
+                        <img src="Asset/bannerfikri.png" alt="">
+                        <h3>Project <span class="colored">Title-6</span></h3>
+                    </div>
+                    <div class="project-7">
+                        <img src="Asset/bannerfikri.png" alt="">
+                        <h3>Project <span class="colored">Title-7</span></h3>
+                    </div>
+                </section>
+
+                <!-- Blogs -->
+
+                <h1>My <span class="colored">Blogs</span></h1>
+                <div class="divider ltr"></div>
+
+                <section class="blogs">
+                    <div class="blog-box">
+                        <img src="Asset/bannerfikri.png" alt="">
+                        <div>
+                            <h3>Web Design Tool</h3>
+                            <p>LOrem ipsum dolor sit amet</p>
+                            <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                    <div class="blog-box">
+                        <img src="Asset/bannerfikri.png" alt="">
+                        <div>
+                            <h3>Web Design Tool</h3>
+                            <p>LOrem ipsum dolor sit amet</p>
+                            <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                    <div class="blog-box">
+                        <img src="Asset/bannerfikri.png" alt="">
+                        <div>
+                            <h3>Web Design Tool</h3>
+                            <p>LOrem ipsum dolor sit amet</p>
+                            <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                    <div class="blog-box">
+                        <img src="Asset/bannerfikri.png" alt="">
+                        <div>
+                            <h3>Web Design Tool</h3>
+                            <p>LOrem ipsum dolor sit amet</p>
+                            <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                        </div>
+                </section>
+
+                <!-- Contact -->
+
+                <h1>Contact <span class="colored">Me</span></h1>
+                <div class="divider ltr"></div>
+
+                <section>
+                    <iframe class="map" width="100%" height="300" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.673311998592!2d110.39189567573209!3d-7.047621892954532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b3578f6c423%3A0xf729eeaa620a8079!2sMasjid%20Jami&#39;%20Ulul%20Albab%20UNNES!5e0!3m2!1sid!2sid!4v1759645727446!5m2!1sid!2sid" frameborder="0"></iframe>
+                        
+                    <form action="#" class="contact">
+                        <div>
+                            <input type="text" class="input" name="firsname" placeholder="Your Name...">
+                        </div>
+                        <div>
+                            <input type="text" class="input" name="lastname" placeholder="Your Last Name...">
+                        </div>
+                        <div>
+                            <input type="text" class="input" name="email" placeholder="Your Email Address...">
+                        </div>
+                            <textarea class="input" rows="4" name="subject" placeholder="Write Something.."></textarea>
+                        <div>
+                            <button type="submit" class="submit">SEND</button>
+                        </div>
+                    </form>
+                </section>
+
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
